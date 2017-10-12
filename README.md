@@ -7,7 +7,9 @@ The resulting super resolution image is then binarised and the matlab function "
 I have included an example diffraction limited image "seriesF_LED", and the superresolution counterpart image can be downloaded from 
 https://www.dropbox.com/s/nah5m3m7jziddpr/seriesF_jittered_super_resolution.tif?dl=0 (the image was too large to upload to github)
 
-If all the files are downloaded into the same directory, and the matlab script is run, a boxplot will be produced displaying the equivalent diameters of the telomeres from the super resolution image
+Create a folder called "analysis" and save the Telomeres_github.m into this folder.  Within the "analysis" folder, vreate another folder called "24_5_2016", and save the images into this file. 
+
+Run the matlab script. A series of images should pop up displaying the super res and LED image. Click continue when promted to do so. On completion, a boxplot will be produced displaying the equivalent diameters of the telomeres from the super resolution image
 
 ---------------------------------------------------
 
